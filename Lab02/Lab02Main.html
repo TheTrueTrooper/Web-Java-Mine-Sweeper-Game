@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Starcraft Mine Sweeper</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Lab02_CSS.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="Lab02_Java.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <table> 
+               <tr> 
+                    <td> 
+                    </td>                      
+                </tr>
+                <tr> 
+                    <td> 
+                        <h1>
+                        <img class="LargeBannerIcon" src="Image/zerg.gif" alt="nvm">Baneling Sweeper<img Class="LargeBannerIcon" src="Image/zerg.gif" alt="nvm">
+                        </h1>
+                    </td>                      
+                </tr>
+                <tr> 
+                    <td> 
+                    </td>                      
+                </tr>
+            </table>
+        </header>
+        <div>
+            <table>
+            <tr> 
+                <td>
+                    X<input id="X" type="text" style="width:90%;"></td>
+                <td>
+                    Y<input id="Y" type="text" style="width:90%;">
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    <select id="Difficultly">
+                        <option value="Hard">Hard</option>
+                        <option value="Normal">Normal</option>
+                        <option value="Easy">Easy</option>
+                        <option value="VeryEasy">Very Easy</option>
+                    </select>
+                    <select id="Markers">
+                        <option value="Check">Live Check</option>
+                        <option value="QMark">Mark a maybe</option>
+                        <option value="Mark">Mark a mine</option>
+                        <option value="UnMark">Unmark</option>
+                    </select>
+                <td>
+                    <button type="button" id ="Marker"></button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" id ="New" style="width: 100%;">Start New</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id="BuildSpace">
+                    </div>
+                </td>
+            </tr>
+            </table>
+        </div>
+        <footer>
+            <a href="../Lab01/Lab01Main.html"><img src="Image/images.jpg" alt=""/><p style="font-size: 0.8em; color: red;"> This is the pedwin crashing. Click to go back</p></a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 11, 2016, 9:49:28 AM
+    Author     : Asanches2
+*/
+
+.Regular:before
+{
+    
+}
+
+.Regular:after
+{
+    
+}
+
+.Mine:before
+{
+    
+}
+
+.Mine:after
+{
+    
+}
+
+body{
+    padding: 10%;
+    background: black;
+    color:  azure;
+}
+
+
+body header{
+    background-image: url("Image/WebSiteTempBackground.jpg"); 
+    background-size: 210px;
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    
+    
+}
+
+.LargeBannerIcon
+{
+    height:100px; width: 100px;
+}
+
+
+body header table{
+    width: 100%;
+    height: 100%;
+}
+
+
+body div table{
+    width: 100%;
+    height: 100%;
+}
+
+body div ul li{
+    width: 400px;
+    text-align: center;
+    
+}
+
+a:link {
+color: azure;
+}
+
+a:visited {
+color: aqua;
+}
+
+
+a:hover {
+color: red;
+}
+
+
+a:active {
+color: lawngreen;
+}
